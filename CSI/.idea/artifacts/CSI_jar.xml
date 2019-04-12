@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="CSI:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/CSI_jar</output-path>
+    <root id="archive" name="CSI.jar">
+      <element id="module-output" name="CSI" />
+    </root>
+  </artifact>
+</component>
