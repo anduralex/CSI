@@ -10,8 +10,19 @@ public class MyGUIForm extends JFrame{
     private JButton ADFGVXButton;
     public JPanel rootPanel;
     private JButton EnigmaButton;
+    private JButton DESButton;
 
     public MyGUIForm(){
+
+        DESButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                GUI4DES des = new GUI4DES();
+                des.setVisible(true);
+
+            }
+        });
+
         PLAYFAREButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {

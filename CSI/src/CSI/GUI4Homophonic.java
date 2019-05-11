@@ -17,7 +17,6 @@ public class GUI4Homophonic extends JFrame{
 
     private String[][] math2 = new String[5][25];
     private static Random random;
-    private static Object syncObj = new Object();
 
 
     GUI4Homophonic(){
